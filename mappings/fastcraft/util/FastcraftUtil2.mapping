@@ -1,0 +1,6 @@
+CLASS fastcraft/aG fastcraft/util/FastcraftUtil2
+	FIELD a rand Ljava/util/Random;
+	FIELD b rand2 Ljava/util/Random;
+	METHOD a createConfigFile ()Ljava/io/File;
+	METHOD a error (Lfastcraft/ay;Ljava/lang/String;Ljava/lang/String;)Lfastcraft/ay;
+	METHOD a error2 (Ljava/lang/String;)Ljava/lang/RuntimeException;

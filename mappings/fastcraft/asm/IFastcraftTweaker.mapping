@@ -1,0 +1,3 @@
+CLASS fastcraft/i fastcraft/asm/IFastcraftTweaker
+	METHOD a getWorld ()Lnet/minecraft/world/World;
+	METHOD a tweakMethod (Lorg/objectweb/asm/tree/ClassNode;Lorg/objectweb/asm/tree/MethodNode;)Z

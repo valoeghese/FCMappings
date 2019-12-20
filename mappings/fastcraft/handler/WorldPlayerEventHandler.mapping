@@ -1,0 +1,9 @@
+CLASS fastcraft/e fastcraft/handler/WorldPlayerEventHandler
+	METHOD a onPlayerLoggedIn (Lcpw/mods/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
+		ARG 1 event
+	METHOD a onPlayerLoggedOut (Lcpw/mods/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V
+		ARG 1 event
+	METHOD a onWorldTick (Lcpw/mods/fml/common/gameevent/TickEvent$WorldTickEvent;)V
+		ARG 1 event
+	METHOD a onWorldLoad (Lnet/minecraftforge/event/world/WorldEvent$Load;)V
+		ARG 1 event

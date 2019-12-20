@@ -1,0 +1,2 @@
+CLASS fastcraft/Tweaker
+	FIELD a injectedIntoClassloader Z

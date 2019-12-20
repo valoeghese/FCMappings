@@ -1,0 +1,3 @@
+CLASS fastcraft/f fastcraft/handler/FastcraftModContainer
+	METHOD a onPreInit (Lcpw/mods/fml/common/event/FMLPreInitializationEvent;)V
+		ARG 1 event

@@ -1,0 +1,3 @@
+CLASS fastcraft/b fastcraft/FCDummy
+	METHOD a onPreInit (Lcpw/mods/fml/common/event/FMLPreInitializationEvent;)V
+		ARG 1 event

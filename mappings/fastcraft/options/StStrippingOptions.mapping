@@ -1,0 +1,2 @@
+CLASS fastcraft/O fastcraft/options/StStrippingOptions
+	FIELD a noStStripping Z

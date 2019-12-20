@@ -1,0 +1,4 @@
+CLASS fastcraft/k fastcraft/compat/EnumForeignMods
+	FIELD a entryPoints [Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;I[Ljava/lang/String;)V
+		ARG 3 entryPoints

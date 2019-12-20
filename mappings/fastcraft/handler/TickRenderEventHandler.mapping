@@ -1,0 +1,21 @@
+CLASS fastcraft/d fastcraft/handler/TickRenderEventHandler
+	METHOD a onClientTick (Lcpw/mods/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+		ARG 1 event
+	METHOD a onRenderTick (Lcpw/mods/fml/common/gameevent/TickEvent$RenderTickEvent;)V
+		ARG 1 event
+	METHOD a onWorldTick (Lcpw/mods/fml/common/gameevent/TickEvent$WorldTickEvent;)V
+		ARG 1 event
+	METHOD a onClientConnectedToServer (Lcpw/mods/fml/common/network/FMLNetworkEvent$ClientConnectedToServerEvent;)V
+		ARG 1 event
+	METHOD a onRenderGameOverlay (Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V
+		ARG 1 event
+	METHOD a onRenderWorldLast (Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V
+		ARG 1 event
+	METHOD a onEntityJoinWorld (Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;)V
+		ARG 1 event
+	METHOD a onChunkLoad (Lnet/minecraftforge/event/world/ChunkEvent$Load;)V
+		ARG 1 event
+	METHOD a onChunkUnload (Lnet/minecraftforge/event/world/ChunkEvent$Unload;)V
+		ARG 1 event
+	METHOD a onWorldLoad (Lnet/minecraftforge/event/world/WorldEvent$Load;)V
+		ARG 1 event

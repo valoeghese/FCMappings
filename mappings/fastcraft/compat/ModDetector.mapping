@@ -1,0 +1,5 @@
+CLASS fastcraft/j fastcraft/compat/ModDetector
+	FIELD a detectedMods Z
+	METHOD a isModLoaded (Lfastcraft/k;)Z
+		ARG 0 mod
+	METHOD a getModBoolean (Ljava/lang/String;Ljava/lang/String;)Z

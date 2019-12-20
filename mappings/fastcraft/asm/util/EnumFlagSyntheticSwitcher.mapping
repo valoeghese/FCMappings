@@ -1,0 +1,2 @@
+CLASS fastcraft/A fastcraft/asm/util/EnumFlagSyntheticSwitcher
+	FIELD a SWITCH_JUMP_TABLE [I

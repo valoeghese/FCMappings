@@ -1,0 +1,7 @@
+CLASS fastcraft/c fastcraft/compat/ModsLoaded
+	FIELD a doShadersModCompat Z
+	FIELD b optifineCullingTweaksLoaded Z
+	FIELD c doBukkitCompat Z
+	FIELD d doColoredLightsCompat Z
+	FIELD e optifineFontRendererTweaksLoaded Z
+	FIELD f doOptifineCompat Z
