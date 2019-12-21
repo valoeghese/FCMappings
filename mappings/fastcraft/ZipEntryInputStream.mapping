@@ -1,0 +1,3 @@
+CLASS fastcraft/aE fastcraft/ZipEntryInputStream
+	FIELD a input Ljava/io/InputStream;
+	FIELD a zip Ljava/util/zip/ZipFile;

@@ -1,4 +1,4 @@
-CLASS fastcraft/au fastcraft/FastList
+CLASS fastcraft/au fastcraft/collections/FastList
 	FIELD a tweaker Lfastcraft/i;
 	FIELD a thread Ljava/lang/Thread;
 	FIELD a list Ljava/util/List;

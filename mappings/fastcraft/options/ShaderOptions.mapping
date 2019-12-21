@@ -1,1 +1,3 @@
 CLASS fastcraft/N fastcraft/options/ShaderOptions
+	FIELD a block16BArray Ljava/lang/reflect/Field;
+	FIELD b isShadowPass Ljava/lang/reflect/Field;

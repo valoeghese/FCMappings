@@ -1,0 +1,7 @@
+CLASS fastcraft/aw fastcraft/collections/FastListIterator
+	FIELD a list Lfastcraft/au;
+	FIELD a previous Ljava/lang/Object;
+	FIELD a iterator Ljava/util/ListIterator;
+	METHOD <init> (Lfastcraft/au;Ljava/util/ListIterator;)V
+		ARG 1 list
+		ARG 2 iterator

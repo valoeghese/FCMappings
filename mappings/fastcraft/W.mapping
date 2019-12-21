@@ -1,0 +1,2 @@
+CLASS fastcraft/W
+	FIELD a isGapLightingUpdated Ljava/lang/reflect/Field;

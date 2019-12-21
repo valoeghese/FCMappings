@@ -2,6 +2,7 @@ CLASS fastcraft/a fastcraft/config/ConfigInit
 	FIELD a config Lfastcraft/ay;
 	FIELD a log Lorg/apache/logging/log4j/Logger;
 	FIELD a loaded Z
+	METHOD a getConfig ()Lfastcraft/ay;
 	METHOD a getLog ()Lorg/apache/logging/log4j/Logger;
 	METHOD a init ()V
 	METHOD b createConfig ()Lfastcraft/ay;

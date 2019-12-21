@@ -1,0 +1,3 @@
+CLASS fastcraft/R
+	FIELD a tickRefCount Ljava/lang/reflect/Field;
+	FIELD b blockRefCount Ljava/lang/reflect/Field;

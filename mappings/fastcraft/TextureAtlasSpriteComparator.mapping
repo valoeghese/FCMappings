@@ -1,0 +1,4 @@
+CLASS fastcraft/aa fastcraft/TextureAtlasSpriteComparator
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 a
+		ARG 2 n

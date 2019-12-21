@@ -1,15 +1,30 @@
 CLASS fastcraft/aG fastcraft/util/FastcraftUtil2
-	FIELD a separator Ljava/lang/String;
+	FIELD a SEPARATOR Ljava/lang/String;
 	FIELD a utf8 Ljava/nio/charset/Charset;
+	FIELD a SHA_256 Ljava/security/MessageDigest;
 	FIELD a rand Ljava/util/Random;
 	FIELD b rand2 Ljava/util/Random;
 	METHOD a createConfigFile ()Ljava/io/File;
+	METHOD a getSHA256 ()Ljava/security/MessageDigest;
+	METHOD a hash (J)I
+	METHOD a getValue (Lfastcraft/aB;)Lfastcraft/az;
+		ARG 0 value
+	METHOD a getBooleanValue (Lfastcraft/aB;)Z
+	METHOD a size (Lfastcraft/aJ;)I
+		ARG 0 map
+	METHOD a getOption (Lfastcraft/ay;Ljava/lang/String;Ljava/lang/String;)Lfastcraft/aB;
+		ARG 0 config
+		ARG 1 section
+		ARG 2 option
 	METHOD a error (Lfastcraft/ay;Ljava/lang/String;Ljava/lang/String;)Lfastcraft/ay;
 	METHOD a findDeclaredField (Ljava/lang/Class;Ljava/lang/Class;ZZ)Ljava/lang/reflect/Field;
 		ARG 0 owner
 		ARG 1 type
 		ARG 2 assignable
 		ARG 3 throwException
+	METHOD a getField (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+		ARG 0 owner
+		ARG 1 name
 	METHOD a getField (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 0 owner
 		ARG 1 name
@@ -19,6 +34,13 @@ CLASS fastcraft/aG fastcraft/util/FastcraftUtil2
 		ARG 1 name
 		ARG 2 throwException
 	METHOD a error2 (Ljava/lang/String;)Ljava/lang/RuntimeException;
+	METHOD a getBytes (Ljava/lang/String;)[B
+	METHOD a findField (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/reflect/Field;
+		ARG 0 owner
+		ARG 1 name
 	METHOD a get (Ljava/lang/reflect/Field;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 0 field
+	METHOD a sha256 ([B[B)[B
+		ARG 0 digest
+		ARG 1 update
 	METHOD b getKeys (Lfastcraft/aJ;)[Ljava/lang/Object;
