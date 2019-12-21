@@ -1,1 +1,2 @@
 CLASS fastcraft/v fastcraft/asm/util/EnumFlag
+	FIELD a values [Lfastcraft/v;

@@ -1,0 +1,2 @@
+CLASS fastcraft/O fastcraft/options/StacktraceStrippingOption
+	FIELD a noStacktraceStripping Z

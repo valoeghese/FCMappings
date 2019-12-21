@@ -1,0 +1,2 @@
+CLASS fastcraft/Tweaker fastcraft/FastcraftFMLTweaker
+	FIELD a injectedIntoClassloader Z

@@ -8,5 +8,6 @@ CLASS fastcraft/u fastcraft/util/FastcraftUtil
 	METHOD a getInstance (Lfastcraft/f;)V
 	METHOD a handleRenderGameOverlay (Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V
 	METHOD a handleEntityJoinWorld (Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;)V
+	METHOD c checkThread (Lfastcraft/au;)V
 	METHOD e handleClientConnectedToServer ()V
 	METHOD g handleWorldLoad ()V

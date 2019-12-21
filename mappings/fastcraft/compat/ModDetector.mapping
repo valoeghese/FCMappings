@@ -1,4 +1,5 @@
 CLASS fastcraft/j fastcraft/compat/ModDetector
+	FIELD a detectionResults Ljava/util/Map;
 	FIELD a detectedMods Z
 	METHOD a isModLoaded (Lfastcraft/k;)Z
 		ARG 0 mod

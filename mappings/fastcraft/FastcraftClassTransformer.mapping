@@ -1,0 +1,8 @@
+CLASS fastcraft/J fastcraft/FastcraftClassTransformer
+	FIELD b verify Z
+	FIELD c dump Z
+	FIELD d permissive Z
+	METHOD transform (Ljava/lang/String;Ljava/lang/String;[B)[B
+		ARG 1 name
+		ARG 2 originalName
+		ARG 3 bytes
