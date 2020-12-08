@@ -1,0 +1,2 @@
+CLASS fastcraft/aB fastcraft/config/ConfigValue
+	FIELD b value Ljava/lang/String;

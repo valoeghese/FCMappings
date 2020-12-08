@@ -1,0 +1,7 @@
+CLASS fastcraft/Z
+	FIELD a bindTexture Ljava/lang/reflect/Method;
+	FIELD a disableAnimations Z
+	FIELD b listAnimatedSprites Ljava/lang/reflect/Field;
+	FIELD c anisotropicFiltering Ljava/lang/reflect/Field;
+	FIELD c disableAdt Z
+	FIELD d glTextureId Ljava/lang/reflect/Field;

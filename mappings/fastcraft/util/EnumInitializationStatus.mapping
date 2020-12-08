@@ -1,0 +1,3 @@
+CLASS fastcraft/M fastcraft/util/EnumInitializationStatus
+	FIELD a INITIALIZED I
+	FIELD c UNINITIALIZED I

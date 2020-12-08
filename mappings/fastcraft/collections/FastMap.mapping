@@ -1,0 +1,4 @@
+CLASS fastcraft/aJ fastcraft/collections/FastMap
+	FIELD a size I
+	FIELD a keys [Ljava/lang/Object;
+	FIELD b values [Ljava/lang/Object;

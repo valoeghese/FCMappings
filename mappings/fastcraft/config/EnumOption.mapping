@@ -1,0 +1,2 @@
+CLASS fastcraft/az fastcraft/config/EnumOption
+	FIELD a values [Lfastcraft/az;

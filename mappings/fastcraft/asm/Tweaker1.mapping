@@ -1,1 +1,23 @@
 CLASS fastcraft/B fastcraft/asm/Tweaker1
+	FIELD a currentInitializationStatus I
+	METHOD a getLoadInstruction (Ljava/lang/String;)I
+		ARG 0 descriptor
+	METHOD a mapMethodName (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 owner
+		ARG 1 name
+		ARG 2 descriptor
+	METHOD a error (Ljava/lang/String;Ljava/lang/Throwable;)V
+		ARG 0 message
+		ARG 1 throwable
+	METHOD a (Lorg/objectweb/asm/tree/AbstractInsnNode;)Lfastcraft/ap;
+		ARG 0 instruction
+	METHOD a tweak ([BLfastcraft/aZ;)[B
+		ARG 0 bytes
+	METHOD b returnTrue ()Z
+	METHOD b boxValue (Ljava/lang/String;)Lorg/objectweb/asm/tree/InsnList;
+		ARG 0 type
+	METHOD b mapFieldName (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 owner
+		ARG 1 name
+		ARG 2 descriptor
+	METHOD c isClient ()Z

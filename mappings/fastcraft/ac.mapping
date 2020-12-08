@@ -1,0 +1,3 @@
+CLASS fastcraft/ac
+	FIELD a addedTileEntityList Ljava/lang/reflect/Field;
+	FIELD a ENABLED Z

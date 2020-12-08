@@ -1,0 +1,2 @@
+CLASS fastcraft/aj
+	METHOD a canUpdate (Lnet/minecraft/tileentity/TileEntity;)Z

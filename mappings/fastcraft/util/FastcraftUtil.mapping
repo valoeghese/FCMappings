@@ -1,12 +1,22 @@
 CLASS fastcraft/u fastcraft/util/FastcraftUtil
 	FIELD a modContainer Lfastcraft/f;
 	FIELD a tweaker Lfastcraft/i;
+	FIELD a thread Ljava/lang/Thread;
 	FIELD a rand Ljava/util/Random;
+	FIELD a isNotEnoughIdsLoaded Z
+	FIELD a GL_CONSTANTS [Ljava/lang/String;
+	FIELD b isShadersModLoaded Z
+	METHOD a getMaxBlockID ()I
+	METHOD a GL_CONSTANTS ()[Ljava/lang/String;
 	METHOD a handlePlayerLogIn (Lcpw/mods/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
 	METHOD a handleClientTick (Lcpw/mods/fml/common/gameevent/TickEvent$ClientTickEvent;)V
 	METHOD a handleWorldTick (Lcpw/mods/fml/common/gameevent/TickEvent$WorldTickEvent;)V
+	METHOD a getTweaker (Lfastcraft/au;)Lfastcraft/i;
 	METHOD a getInstance (Lfastcraft/f;)V
 	METHOD a handleRenderGameOverlay (Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V
 	METHOD a handleEntityJoinWorld (Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;)V
+	METHOD b checkThread1 (Lfastcraft/au;)V
+		ARG 0 list
+	METHOD c checkThread (Lfastcraft/au;)V
 	METHOD e handleClientConnectedToServer ()V
 	METHOD g handleWorldLoad ()V

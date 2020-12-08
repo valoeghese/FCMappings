@@ -1,0 +1,5 @@
+CLASS fastcraft/X fastcraft/collections/FastLongHashMap
+	FIELD a lock Ljava/util/concurrent/locks/ReentrantReadWriteLock;
+	FIELD a ENABLE_LOCKING Z
+	FIELD b ENABLE_DEBUG Z
+	FIELD c ENABLE_CACHE Z
